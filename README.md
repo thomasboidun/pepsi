@@ -2,6 +2,8 @@
 
 ## Ressources
 
+Most of the resources (logo, favicon, font, etc.) come from the [pepsi.com](https://pepsi.com/) website.
+
 ### Fonts
 
 - [PepsiOwners-Regular](./assets/fonts/PepsiOwners-Regular.woff2)
