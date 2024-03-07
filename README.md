@@ -1,36 +1,29 @@
-# PEPSI Template
+# Pepsi Template
 
-## Ressources
+Welcome to the Pepsi Template, a creative exercise and learning endeavor crafted by [thomasboidun](https://github.com/thomasboidun). This project is a showcase of design and development skills, aiming to explore the integration of Pepsi brand elements within a template framework.
 
-Most of the resources (logo, favicon, font, etc.) come from the [pepsi.com](https://pepsi.com/) website.
+## Credits and Legal Mentions
 
-### Fonts
+### Credits
 
-- [PepsiOwners-Regular](./assets/fonts/PepsiOwners-Regular.woff2)
+#### Design and Development
 
-### Images
+- **Thomas Boidun** - [thomasboidun.github.io](https://thomasboidun.github.io/)
 
-<table>
-    <tr><th><a href="https://pepsi.com">Logo</a></th></tr>
-    <tr><td><img src="./assets/img/PepsiLogo@3x.png" alt="Pepsi Logo" /></td></tr>
-</table>
-<table>
-    <tr><th colspan=4><a href="https://pepsi.com">Can</a></th></tr>
-    <tr>
-        <th>Original</th>
-        <th>Zero Sugar</th>
-        <th>Diet</th>
-        <th>Wild Cherry</th>
-    </tr>
-    <tr>
-        <td><img src="./assets/img/Titan_Pepsi_Original_Can.png" alt=" Pepsi Original Can"/></td>
-        <td><img src="./assets/img/Titan_Pepsi_ZeroSugar_Can.png" alt=" Pepsi Zero SugarcCan"/></td>
-        <td><img src="./assets/img/Titan_Pepsi_Diet_Can.png" alt=" Pepsi Diet Can"/></td>
-        <td><img src="./assets/img/Titan_Pepsi_WildCherry_Can.png" alt=" Pepsi Wild Cherry Can"/></td>
-    </tr>
-</table>
-<table>
-    <tr><th>Background</th></tr>
-    <tr><th><a href="https://fr.vecteezy.com/photo/6899260-gouttelettes-d-eau-sur-fond-noir">Water Droplets on a Black Background</a></th></tr>
-    <tr><td><img src="./assets/img/water-droplets-on-black-background.jpg" alt="Water Droplets on a Black Background" /></td></tr>
-</table>
+#### Assets
+
+- **© 2024 PepsiCo, Inc. All rights reserved** - The assets (images, fonts) sourced from the official PepsiCo, Inc. [website](https://pepsi.com/) are used solely for exercise purposes with no commercial intent.
+
+- **© 2024 Vecteezy** - Some background images are sourced from the Vecteezy [image bank](https://fr.vecteezy.com/) and used in compliance with Vecteezy's free license terms.
+
+### Legal Mentions
+
+This template has been created for exercise and learning purposes, with no intention of selling or promoting Pepsi brand products. No partnership, affiliation, or endorsement is implied.
+
+Pepsi assets are the property of PepsiCo, Inc. and are used in accordance with the copyrights held by the company. The use of these assets is exclusively for illustrative purposes within the scope of this template.
+
+PepsiCo, Inc. and the Pepsi logo are registered trademarks of PepsiCo, Inc. This template is neither sponsored nor endorsed by PepsiCo, Inc. and operates independently of any commercial relationship with the company.
+
+All other third-party content used in this template is duly credited and utilized in accordance with applicable copyrights and licenses.
+
+By publishing this project, the author disclaims all responsibility for its use, modification, or distribution by third parties.
