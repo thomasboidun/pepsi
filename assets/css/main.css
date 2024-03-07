@@ -5,6 +5,30 @@
     font-style: normal;
 }
 
+@keyframes bounceOut {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(0.80);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
+}
+
+:root {
+    --logo-size: 50px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,37 +36,33 @@
 }
 
 body {
-    /* background-image: url('/assets/img/blue-background.png'); */
-    background-color: #0025ff;
+    background-image: url('../img/water-droplets-on-black-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     cursor: default;
     font-family: 'PepsiOwners', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .full-screen {
-    width: 100%;
     height: 100vh;
+    width: 100%;
 }
 
-@keyframes bounceOut {
-    0% { transform: scale(1); }
-    30% { transform: scale(0.80); }
-    100% { transform: scale(1); }
+.logo {
+    height: var(--logo-size);
+    width: var(--logo-size);
 }
 
-.title-logo {
-    height: 50px;
-    width: 50px;
-}
-
-.title-logo:hover {
+.logo:hover {
     animation: bounceOut 0.5s linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes blink {
-    to {
-        opacity: 0;
-    }
+.title {
+    font-size: var(--logo-size);
+    height: var(--logo-size);
+    line-height: normal;
 }
 
 .dot {
@@ -55,4 +75,54 @@ body {
 
 .dot:nth-child(3) {
     animation-delay: 0.4s;
+}
+
+@media screen and (min-width: 576px) {
+    :root {
+        --logo-size: 60px;
+    }
+
+    .subtitle {
+        font-size: 1.12rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --logo-size: 70px;
+    }
+
+    .subtitle {
+        font-size: 1.305rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    :root {
+        --logo-size: 80px;
+    }
+
+    .subtitle {
+        font-size: 1.495rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    :root {
+        --logo-size: 90px;
+    }
+
+    .subtitle {
+        font-size: 1.68rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    :root {
+        --logo-size: 100px;
+    }
+
+    .subtitle {
+        font-size: 1.865rem;
+    }
 }
