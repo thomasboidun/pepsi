@@ -1,4 +1,4 @@
-# Pepsi Template
+# Pepsi Products Template
 
 Welcome to the Pepsi Template, a creative exercise and learning endeavor crafted by [thomasboidun](https://github.com/thomasboidun). This project is a showcase of design and development skills, aiming to explore the integration of Pepsi brand elements within a template framework.
 
